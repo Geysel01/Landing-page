@@ -78,8 +78,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2rem;
-    margin-bottom: 4rem;
 }
 
 .navegation-nav {
@@ -90,6 +88,9 @@ img {
 
 .navegation-logo {
     align-items: center;
+}
+.logo{
+    height: 14rem;
 }
 
 
@@ -134,16 +135,16 @@ img {
 .conteiner-book-image {
     box-shadow: -23px 5px 25px 6px rgba(0, 0, 0, 0.49);
     border-radius: 1.5rem;
-    height: 57rem;
+    height: 55rem;
     flex-basis: calc(50% - 1rem);
 }
 .book-quote,
 .book-cite {
     font-family: var(--primaryFont);
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     text-align: center;
     line-height: 3rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 .book-quote {
     color: var(--black);
@@ -151,3 +152,12 @@ img {
 .book-cite {
     color: var(--curius);
 }
+
+/*Learn List
+.conteiner-learn-list{
+    display: grid;
+}
+.conteiner-learn-list-item{
+    display: grid;
+    grid-template-columns: repeat(4fr, 4fr);
+}*/
